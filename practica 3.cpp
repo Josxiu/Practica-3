@@ -516,7 +516,7 @@ void ingreso_usuario()
     ifstream lectura("usuarios");
     if (lectura.fail())
     {
-        cout << "Error, ningun usuario esta registrado en el sistema\n";
+        cout << "Error, ningun usuario esta registrado en el sistema\n\n";
         return;
     }
 
@@ -569,7 +569,7 @@ void ingreso_usuario()
 
     if (existe == 0)
     {
-        cout << "El usuario ingresado no existe, verifique que el usuario ingresado este registrado\n";
+        cout << "El usuario ingresado no existe, verifique que el usuario ingresado este registrado\n\n";
         return;
     }
 
